@@ -1,0 +1,5 @@
+﻿sample,outcome,n,statistic,estimate,p_two_sided,expected_direction,direction_replicated,analysis_role,n_positive
+existing_Chinese_cohort,PHQ-9_total,504,Spearman_rho_alpha3_outcome,-0.6252323055011533,5.105920349678818e-56,negative,True,direction_reference,
+existing_Chinese_cohort,IBS_positive,504,point_biserial_r_alpha3_outcome,-0.05492185339237938,0.21837515375334554,negative,True,direction_reference,97.0
+second_wave_batch2,PHQ-9_total,240,Spearman_rho_alpha3_outcome,-0.5512915112716422,1.754000741185051e-20,negative,True,registered_directional_replication,
+second_wave_batch2,IBS_positive,240,point_biserial_r_alpha3_outcome,-0.29115488239937987,4.501706317874868e-06,negative,True,registered_directional_replication,28.0

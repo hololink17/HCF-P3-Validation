@@ -1,0 +1,9 @@
+﻿队列,敏感性样本,模型,排除定义,n,阳性n,表观AUC,DeLong_CI低,DeLong_CI高,状态
+jianshu,全体,alpha3单独,精神用药=med_psych==1；主要共病=chronic_pain+heart_disease+hypertension+diabetes+hyperlipidemia,504,97,0.5514704019858659,0.4870982871894577,0.6158425167822742,已估计
+jianshu,全体,alpha3+年龄性别,精神用药=med_psych==1；主要共病=chronic_pain+heart_disease+hypertension+diabetes+hyperlipidemia,504,97,0.5737227386711923,0.5065557378643163,0.6408897394780683,已估计
+jianshu,排除精神用药,alpha3单独,精神用药=med_psych==1；主要共病=chronic_pain+heart_disease+hypertension+diabetes+hyperlipidemia,493,92,0.5396020817521414,0.4737576441423186,0.6054465193619643,已估计
+jianshu,排除精神用药,alpha3+年龄性别,精神用药=med_psych==1；主要共病=chronic_pain+heart_disease+hypertension+diabetes+hyperlipidemia,493,92,0.5722243304781525,0.5044103409319223,0.6400383200243827,已估计
+jianshu,排除主要共病,alpha3单独,精神用药=med_psych==1；主要共病=chronic_pain+heart_disease+hypertension+diabetes+hyperlipidemia,307,36,0.5265990159901599,0.42011895987030307,0.6330790721100168,已估计
+jianshu,排除主要共病,alpha3+年龄性别,精神用药=med_psych==1；主要共病=chronic_pain+heart_disease+hypertension+diabetes+hyperlipidemia,307,36,0.5829233292332924,0.4903340512226626,0.6755126072439221,已估计
+jianshu,同时排除精神用药与主要共病,alpha3单独,精神用药=med_psych==1；主要共病=chronic_pain+heart_disease+hypertension+diabetes+hyperlipidemia,306,35,0.4838165524512388,0.37647763485835356,0.5911554700441239,已估计
+jianshu,同时排除精神用药与主要共病,alpha3+年龄性别,精神用药=med_psych==1；主要共病=chronic_pain+heart_disease+hypertension+diabetes+hyperlipidemia,306,35,0.5892461781760675,0.4955506136983439,0.6829417426537912,已估计

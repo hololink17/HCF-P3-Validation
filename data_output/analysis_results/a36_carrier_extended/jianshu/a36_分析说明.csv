@@ -1,0 +1,7 @@
+﻿cohort,item,note,exploratory
+jianshu,推断属性,所有结果均为exploratory；显著性不作为确认性结论或因果证据,exploratory
+jianshu,载体分档,每个队列分别按本队列P33/P67划为低/中/高,exploratory
+jianshu,Logistic,OR为连续载体每增加1单位；校正模型将age_group、gender、education作为分类哑变量,exploratory
+jianshu,联合模型,joint_crude与joint_adjusted同时纳入carrier_a-d；完全共线、未收敛、分离或小样本模型写入错误表,exploratory
+jianshu,公开边界,不指定或恢复任何carrier与内部语义、题目、症状或功能之间的映射；仅进行中性读数的下游统计,exploratory
+jianshu,分层探索,载体×alpha_group采用分层聚合表，不作交互显著性的确认性解释；alcohol使用alcohol_freq,exploratory

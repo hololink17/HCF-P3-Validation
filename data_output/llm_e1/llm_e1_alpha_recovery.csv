@@ -1,0 +1,11 @@
+﻿cohort,pair,r,n
+prolific,llm_alpha1~algo_alpha1,0.9312346846899903,462
+prolific,llm_alpha2~algo_alpha2,0.9590377428890753,462
+prolific,llm_alpha3~algo_alpha3,0.83845790667634,462
+prolific,llm_alpha4~algo_alpha4,0.9350760658442855,462
+prolific,llm_coherence~algo_H,0.9656478570232733,462
+jianshu,llm_alpha1~algo_alpha1,0.9416535667790803,504
+jianshu,llm_alpha2~algo_alpha2,0.958991394643954,504
+jianshu,llm_alpha3~algo_alpha3,0.8345863607434897,504
+jianshu,llm_alpha4~algo_alpha4,0.9481761480981499,504
+jianshu,llm_coherence~algo_H,0.9596104660816926,504

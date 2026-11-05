@@ -1,0 +1,50 @@
+{
+  "audit_date": "2026-11-01",
+  "model": "deepseek-flash",
+  "temperature": 0.0,
+  "prolific": {
+    "cases": 462,
+    "raw_rows": 462,
+    "valid_unique_responses": 462,
+    "failed_raw_rows": 0,
+    "hash_matched_responses": 462,
+    "invalidated_contaminated_inputs": 301,
+    "clean_full_rerun": true
+  },
+  "jianshu": {
+    "cases": 504,
+    "raw_rows_including_early_failed_attempts": 511,
+    "valid_unique_responses": 504,
+    "early_failed_raw_rows": 7,
+    "inputs_changed": 0,
+    "reuse_rule": "Legacy unhashed successful responses admitted only because the case input was unchanged"
+  },
+  "input_text_constraints": {
+    "situation_items_per_case": 20,
+    "health_or_scale_content_in_input": false,
+    "trailing_BADS_or_GAD_labels_after_parser_fix": 0
+  },
+  "aggregate_tables": [
+    "llm_e1_alpha_recovery.csv",
+    "llm_e1_dimensionality.csv",
+    "llm_e1_screening_auc.csv",
+    "llm_e1_gold_standard.csv",
+    "llm_e1_combined_auc.csv"
+  ],
+  "public_prediction_file": "code/data/derived/p3_llm_predictions.csv",
+  "public_prediction_rows": 966,
+  "public_prediction_columns": [
+    "participant_token",
+    "cohort",
+    "llm_alpha1",
+    "llm_alpha2",
+    "llm_alpha3",
+    "llm_alpha4",
+    "llm_coherence",
+    "llm_phq9",
+    "llm_gad7",
+    "llm_ibs"
+  ],
+  "public_reproduction": "python code/python/llm_e1_deepseek_redo.py",
+  "public_privacy": "Only anonymous participant tokens, eight numeric model estimates per respondent, aggregate tables and this manifest are public. Case text, item responses, raw model returns, response IDs, input hashes, private IDs, crosswalks and input-change lists remain controlled."
+}

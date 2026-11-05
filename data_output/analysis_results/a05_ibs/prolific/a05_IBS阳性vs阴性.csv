@@ -1,0 +1,6 @@
+﻿队列,预测因子,IBS+均值,IBS-均值,Cohen_d(IBS+vs-)
+prolific,H_score,0.2233,0.2553,-0.3388
+prolific,alpha1,0.4919,0.5217,-0.3477
+prolific,alpha2,0.4911,0.5263,-0.3231
+prolific,alpha3,0.3104,0.3396,-0.2735
+prolific,alpha4,0.5154,0.5476,-0.366

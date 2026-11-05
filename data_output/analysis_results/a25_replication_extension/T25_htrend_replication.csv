@@ -1,0 +1,3 @@
+﻿cohort,n,r_alpha1sq_vs_H,R2_alpha1sq_vs_H,AIC_quadratic,AIC_linear,note
+prolific,462,0.9662,0.9336,-2111.12,-1972.09,H_trend is the public downstream transformation alpha1^2; identity itself is not evidence
+jianshu,504,0.9737,0.9481,-2292.41,-2112.24,H_trend is the public downstream transformation alpha1^2; identity itself is not evidence

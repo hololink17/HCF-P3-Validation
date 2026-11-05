@@ -1,0 +1,16 @@
+{
+  "model_recorded_in_source": "BAAI/bge-m3",
+  "similarity": "L2-normalized cosine",
+  "screening_threshold": 0.8,
+  "near_threshold_rule": ">0.75 and <=0.80",
+  "base_n": 462,
+  "checks": {
+    "embedding_recomputed": false
+  },
+  "source_files": {
+    "semantic_sim_stem.csv": "6214c6e226df0f59702cf71947881eabbf517b6b61e937a3b999659ec04978f1",
+    "semantic_sim_options.csv": "ecde80e3e70a35946c059a39083b97261b8838f0126fcf2a9c871ca174efda86",
+    "semantic_sim_phq_gad.csv": "2d652a1bdb70a2449c41e9cbf8ca45a2facd9aeb2e1ce21c770ca4026704a651"
+  },
+  "privacy": "No item text, embeddings, participant-level records, or proprietary mappings in outputs."
+}

@@ -1,0 +1,7 @@
+﻿队列,结局,预测因子,AUC,SE,CI半宽,post-hoc功效,n
+jianshu,depression,H_score,0.8101,0.0214,0.042,1.0,504
+jianshu,depression,alpha1,0.7933,0.0224,0.044,1.0,504
+jianshu,depression,alpha4,0.8217,0.0206,0.0404,1.0,504
+jianshu,ibs_positive,H_score,0.5514,0.0329,0.0646,0.345,504
+jianshu,ibs_positive,alpha1,0.5377,0.0333,0.0653,0.2048,504
+jianshu,ibs_positive,alpha4,0.5607,0.0327,0.064,0.4598,504

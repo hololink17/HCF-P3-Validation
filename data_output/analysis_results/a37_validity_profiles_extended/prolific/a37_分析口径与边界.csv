@@ -1,0 +1,8 @@
+﻿项目,说明,队列
+推断属性,全部结果为探索性；除非另有可核查预注册，不得表述为确认性证据。,prolific
+simplex期望,α相关预期为正，且相邻相关的总体强度高于非相邻相关。,prolific
+链式实现边界,仅以Python statsmodels/numpy估计线性路径及百分位bootstrap间接效应；不是lavaan SEM，未提供也不声称CFI/RMSEA。,prolific
+链式解释边界,链式方向来自理论设定，横断面关联与bootstrap区间不证明时间顺序或因果中介。,prolific
+CV,IBS组合模型使用固定5折分层CV；类别数不足时不恢复或伪造CV。,prolific
+多重检验,主要探索检验在每一队列内统一BH-FDR；描述性AUC、型谱计数与净重抽样不另造p值。,prolific
+隐私与资产,仅输出聚合统计，不输出个人记录、题目级专有编码或映射。,prolific

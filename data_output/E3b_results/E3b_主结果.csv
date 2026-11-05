@@ -1,0 +1,7 @@
+﻿analysis,registration_status,group_a,group_b,variable,estimand,estimate,ci90_lo,ci90_hi,p_tost_lower,p_tost_upper,criterion_met
+C1,registered,second_wave_batch2_new20,existing_Chinese_cohort_first20,alpha1,Cliff_delta,0.1307208994708995,0.0611779382995119,0.20026386064228707,4.800952940939582e-11,0.34996848290439003,False
+C1,registered,second_wave_batch2_new20,existing_Chinese_cohort_first20,alpha2,Cliff_delta,0.177116402116402,0.1060258308029236,0.2482069734298804,1.1182279571463277e-13,0.7572508356686594,False
+C1,registered,second_wave_batch2_new20,existing_Chinese_cohort_first20,alpha3,Cliff_delta,0.04730489417989414,-0.02340493032955826,0.11801471868934654,3.56625748707412e-06,0.010258894959694452,True
+C1,registered,second_wave_batch2_new20,existing_Chinese_cohort_first20,alpha4,Cliff_delta,0.06107804232804237,-0.010126369256298173,0.1322824539123828,9.32342194423154e-07,0.023636753702907597,True
+C2,registered_direction,second_wave_batch2,PHQ-9_total,alpha3,Spearman_rho_alpha3_outcome,-0.5512915112716422,,,,,True
+C2,registered_direction,second_wave_batch2,IBS_positive,alpha3,point_biserial_r_alpha3_outcome,-0.29115488239937987,,,,,True

@@ -1,0 +1,7 @@
+﻿队列,结局,预测因子,AUC,SE,CI半宽,post-hoc功效,n
+prolific,depression,H_score,0.736,0.024,0.0471,1.0,462
+prolific,depression,alpha1,0.7304,0.0242,0.0474,1.0,462
+prolific,depression,alpha4,0.7459,0.0237,0.0464,1.0,462
+prolific,ibs_positive,H_score,0.6016,0.03,0.0589,0.9229,462
+prolific,ibs_positive,alpha1,0.5987,0.03,0.0588,0.9081,462
+prolific,ibs_positive,alpha4,0.6037,0.0298,0.0584,0.9354,462

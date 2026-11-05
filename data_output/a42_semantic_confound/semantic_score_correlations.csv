@@ -1,0 +1,5 @@
+﻿analysis,r,p,n
+stem_mean_similarity_vs_item_mean_score,0.3619602597986673,0.11682781482669072,20
+stem_max_similarity_vs_item_mean_score,0.07316810717515851,0.7591787677918396,20
+option_mean_similarity_vs_endorsement_rate,0.18436201668405028,0.06632586920006556,100
+option_max_similarity_vs_endorsement_rate,0.07848006920455111,0.43767108873284105,100

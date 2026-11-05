@@ -1,0 +1,9 @@
+﻿variable,group,n,mean,sd,min,p25,median,p75,max,analysis_role
+alpha1,second_wave_batch2_new20,240,0.5535416666666665,0.07547045483959902,0.3584,0.5056,0.5643,0.6201,0.6671,registered_distribution_description
+alpha1,existing_Chinese_cohort_first20,504,0.5304638888888888,0.09728675107100578,0.3413,0.443975,0.5343,0.61255,0.6889,registered_distribution_description
+alpha2,second_wave_batch2_new20,240,0.5723345833333333,0.10212856535637005,0.3116,0.49735,0.5963,0.657575,0.7161,registered_distribution_description
+alpha2,existing_Chinese_cohort_first20,504,0.5370029761904762,0.11695195837464815,0.2963,0.43585,0.5436,0.6306,0.7379,registered_distribution_description
+alpha3,second_wave_batch2_new20,240,0.3391558333333334,0.06686345018030365,0.1918,0.29115,0.3391,0.3747,0.4694,registered_distribution_description
+alpha3,existing_Chinese_cohort_first20,504,0.36151924603174607,0.13349822839543105,0.2006,0.2681,0.3241,0.410125,0.733,registered_distribution_description
+alpha4,second_wave_batch2_new20,240,0.5676233333333334,0.08320666083464978,0.3407,0.5042249999999999,0.5793,0.6381749999999999,0.6824,registered_distribution_description
+alpha4,existing_Chinese_cohort_first20,504,0.555936507936508,0.09741377660920618,0.3407,0.47115,0.5637,0.6376,0.7109,registered_distribution_description

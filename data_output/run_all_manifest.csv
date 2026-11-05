@@ -1,0 +1,28 @@
+﻿module,status,reason
+a01_descriptives.py,success,
+a02_alpha_structure.py,partial_public_l2,公开 L2 不含题目级作答；题目级 PCA 未运行，其余结构分析已完成
+a03_causal_chain.py,success,
+a04_predictive.py,success,
+a05_ibs.py,success,
+a06_clinical_utility.py,success,
+a07_hidden_distress.py,success,
+a09_carrier.py,success,
+a10_robustness.py,partial_public_l2,公开 L2 不含注意力字段；注意力敏感性未运行，分层稳健性已完成
+a11_cross_cohort.py,success,
+a12_convergent.py,partial_public_l2,公开 L2 不含时长/注意力字段；可接受性未运行，Gold 收敛分析已完成
+a15_screening_roc.py,success,
+a16_hierarchical_regression.py,success,
+a18_anchor_vs_algorithm.py,skipped_controlled_l3_required,需要受控 L3 的 anchor1–anchor4 数值锚点
+a19_ibs_subgroup.py,success,
+a24_item_equivalence.py,partial_public_l2,公开 L2 不含题目级输入；题目等价性未运行，仅完成症状分层描述
+a25_replication_extension.py,partial_public_l2,公开 L2 不含锚点题；锚定信度未运行，其余扩展分析已完成
+a27_suicidal_ideation.py,skipped_controlled_l3_required,需要受控 PHQ-9 题项；公开 L2 仅含外部量表总分，受控聚合结果不作为公开可复算结果
+a32_design_power.py,success,
+a36_carrier_extended.py,partial_public_l2,稀疏/未收敛等不可估计模型列入错误表；模块为部分完成而非全部模型成功
+a37_validity_profiles_extended.py,success,
+a38_ibs_clinical_extended.py,success,
+a39_anchor_lifestyle_extended.py,skipped_controlled_l3_required,整模块需要受控 L3 的 anchor1–anchor4；公开 L2 只保留未运行状态说明
+a41_gold_incremental_ipsative.py,success,
+a42_semantic_confound.py,success,
+e03b_phase2.py,success,
+e2_icc_dual_20261031.py,success,

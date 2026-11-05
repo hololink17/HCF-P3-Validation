@@ -1,0 +1,12 @@
+*.R text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.csv text eol=lf
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.bmp binary
+*.tif binary
+*.tiff binary
+*.webp binary

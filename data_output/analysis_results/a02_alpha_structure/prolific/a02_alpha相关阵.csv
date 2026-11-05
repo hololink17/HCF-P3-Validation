@@ -1,0 +1,5 @@
+﻿队列,因子,alpha1,alpha2,alpha3,alpha4
+prolific,alpha1,1.0,0.9335,0.8254,0.9213
+prolific,alpha2,0.9335,1.0,0.8512,0.9563
+prolific,alpha3,0.8254,0.8512,1.0,0.8206
+prolific,alpha4,0.9213,0.9563,0.8206,1.0

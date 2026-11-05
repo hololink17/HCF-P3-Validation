@@ -1,0 +1,5 @@
+﻿队列,phq_band,mean,std,count
+prolific,0-4,0.3,0.0949,137
+prolific,5-9,0.2502,0.0889,163
+prolific,10-14,0.2153,0.0769,78
+prolific,15+,0.1861,0.0733,84

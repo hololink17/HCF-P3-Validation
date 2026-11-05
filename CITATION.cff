@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software or the accompanying de-identified data, please cite the associated manuscript."
+title: "Beyond Symptom Counts: P3 analysis code and de-identified data"
+authors:
+  - family-names: Liu
+    given-names: Xiangyu
+    orcid: https://orcid.org/0009-0004-5650-7780
+license: CC-BY-4.0
+year: 2026
+type: software

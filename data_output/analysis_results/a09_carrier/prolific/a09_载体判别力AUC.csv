@@ -1,0 +1,17 @@
+﻿队列,结局,载体,AUC,CI低,CI高
+prolific,depression,carrier_a,0.7225,0.6745,0.7706
+prolific,depression,carrier_b,0.7265,0.6785,0.7746
+prolific,depression,carrier_c,0.7343,0.6872,0.7815
+prolific,depression,carrier_d,0.7375,0.6905,0.7845
+prolific,ibs_positive,carrier_a,0.6111,0.5531,0.6692
+prolific,ibs_positive,carrier_b,0.6027,0.5439,0.6615
+prolific,ibs_positive,carrier_c,0.5976,0.5383,0.6569
+prolific,ibs_positive,carrier_d,0.5936,0.5349,0.6523
+prolific,chronic_pain,carrier_a,0.5608,0.5067,0.6148
+prolific,chronic_pain,carrier_b,0.5559,0.5017,0.61
+prolific,chronic_pain,carrier_c,0.5559,0.5018,0.6101
+prolific,chronic_pain,carrier_d,0.5369,0.4826,0.5911
+prolific,hypertension,carrier_a,0.5176,0.4526,0.5826
+prolific,hypertension,carrier_b,0.5196,0.4551,0.584
+prolific,hypertension,carrier_c,0.5204,0.4572,0.5836
+prolific,hypertension,carrier_d,0.5173,0.4538,0.5808

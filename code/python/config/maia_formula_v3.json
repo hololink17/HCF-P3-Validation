@@ -1,0 +1,35 @@
+{
+ "maia_noticing": {
+  "items": {
+   "maia_30": 1,
+   "maia_31": 1,
+   "maia_32": 1,
+   "maia_29": 1
+  },
+  "R2": 1.0
+ },
+ "maia_not_distracting": {
+  "items": {
+   "maia_33": -1,
+   "maia_34": -1,
+   "maia_35": -1,
+   "maia_36": -1,
+   "maia_37": -1,
+   "maia_38": -1
+  },
+  "R2": 1.0
+ },
+ "maia_not_worrying": {
+  "items": {
+   "maia_39": -1,
+   "maia_40": -1,
+   "maia_41": 1,
+   "maia_42": 1,
+   "maia_43": -1
+  },
+  "R2": 1.0
+ },
+ "maia_three_dim": {
+  "rule": "mean(noticing, not_distracting, not_worrying)"
+ }
+}

@@ -1,0 +1,66 @@
+{
+  "scoring_basis": "official raw-item scoring; not a regression fit on pre-reversed data",
+  "aaq_total": {
+    "target": "aaq_total",
+    "n_rows": 142,
+    "intercept": 0.0,
+    "n_rev": 0,
+    "n_pos": 7,
+    "max_abs_err": null,
+    "scale_min": 1,
+    "scale_max": 7,
+    "items": [
+      ["aaq_66", 1], ["aaq_67", 1], ["aaq_68", 1], ["aaq_69", 1],
+      ["aaq_70", 1], ["aaq_71", 1], ["aaq_72", 1]
+    ]
+  },
+  "dcs_total": {
+    "target": "dcs_total",
+    "n_rows": 142,
+    "intercept": 66.0,
+    "n_rev": 11,
+    "n_pos": 5,
+    "max_abs_err": null,
+    "scale_min": 1,
+    "scale_max": 5,
+    "reverse_rule": "6-x",
+    "items": [
+      ["dcs_73", 1], ["dcs_74", 1], ["dcs_75", -1], ["dcs_76", -1],
+      ["dcs_77", -1], ["dcs_78", -1], ["dcs_79", 1], ["dcs_80", -1],
+      ["dcs_81", -1], ["dcs_82", 1], ["dcs_83", 1], ["dcs_84", -1],
+      ["dcs_85", -1], ["dcs_86", -1], ["dcs_87", -1], ["dcs_88", -1]
+    ]
+  },
+  "bads_total": {
+    "target": "bads_total",
+    "n_rows": 142,
+    "intercept": 84.0,
+    "n_rev": 14,
+    "n_pos": 11,
+    "max_abs_err": null,
+    "scale_min": 0,
+    "scale_max": 6,
+    "reverse_rule": "6-x",
+    "items": [
+      ["bads_89", -1], ["bads_90", 1], ["bads_91", 1], ["bads_92", 1],
+      ["bads_93", 1], ["bads_94", -1], ["bads_95", 1], ["bads_96", -1],
+      ["bads_97", -1], ["bads_98", 1], ["bads_99", 1], ["bads_100", 1],
+      ["bads_101", -1], ["bads_102", -1], ["bads_103", 1], ["bads_104", -1],
+      ["bads_105", -1], ["bads_106", 1], ["bads_107", -1], ["bads_108", -1],
+      ["bads_109", -1], ["bads_110", -1], ["bads_111", 1], ["bads_112", -1],
+      ["bads_113", -1]
+    ]
+  },
+  "maia_noticing": {
+    "target": "maia_noticing",
+    "note": "MAIA uses config/maia_formula_v3.json, not this file"
+  },
+  "maia_not_distracting": {
+    "target": "maia_not_distracting",
+    "note": "MAIA uses config/maia_formula_v3.json, not this file"
+  },
+  "maia_not_worrying": {
+    "target": "maia_not_worrying",
+    "note": "MAIA uses config/maia_formula_v3.json, not this file"
+  }
+}

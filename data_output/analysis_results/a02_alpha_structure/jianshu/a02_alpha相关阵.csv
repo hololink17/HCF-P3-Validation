@@ -1,0 +1,5 @@
+﻿队列,因子,alpha1,alpha2,alpha3,alpha4
+jianshu,alpha1,1.0,0.9564,0.8436,0.9444
+jianshu,alpha2,0.9564,1.0,0.8708,0.963
+jianshu,alpha3,0.8436,0.8708,1.0,0.835
+jianshu,alpha4,0.9444,0.963,0.835,1.0

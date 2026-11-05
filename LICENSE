@@ -1,0 +1,10 @@
+Copyright 2026 Xiangyu Liu
+
+This repository's original code, documentation, and de-identified datasets are licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
+You are free to share and adapt the material, provided that you give appropriate credit, provide a link to the license, and indicate if changes were made.
+
+License: https://creativecommons.org/licenses/by/4.0/
+Legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+
+No patent, trademark, trade-secret, or proprietary algorithm rights are granted by this license. The proprietary scoring engine, parameter values, item-to-code association matrix, decision-layer calibration values, and contradiction library are not part of this repository.
