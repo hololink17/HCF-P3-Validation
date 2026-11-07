@@ -1,6 +1,6 @@
-# HCF · P3 工具验证 — 黑盒信效度复现包
+# HCF · P3 工具验证 — 九读数信效度与下游统计复现包
 
-本仓库伴随论文 **《Black-Box Reliability and Validity of a Proprietary Computational Assessment System in Two Cohorts》** 发布，用于复现公开范围内的黑盒信效度与下游统计结果。
+本仓库伴随论文 **《Black-Box Reliability and Validity of a Proprietary Computational Assessment System in Two Cohorts》** 发布，用于复现公开范围内的信效度、效标关联与下游统计结果。
 
 > **公开边界**：仓库提供九个后台直出读数（四个 α、四个 carrier、一个 H）、外部变量、公开量表结果及下游统计。书籍已公开的 H_trend = [α1]² 仅作为 α1 的确定性下游变换复现，不是第十个后台读数，也不表示实测纵向变化。内部题目作答、内部中间量、H 的后台生成公式、映射规则、校准参数与专有计算组件均不公开；公开代码不会从原始作答或其他读数重构内部计分。
 
@@ -28,7 +28,7 @@
 ## 3. 目录结构
 
 ```text
-03_GitHub代码包/
+HCF-P3-Validation/
 ├── code/
 │   ├── R/                         # 双队列 R 下游统计
 │   ├── python/                    # Python 下游统计、E2/E3 与公开数据导出
