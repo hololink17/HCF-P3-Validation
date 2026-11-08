@@ -39,6 +39,7 @@ PUBLIC_L2_CONTROLLED_ONLY = {
 
 PUBLIC_L2_PARTIAL = {
     "a02_alpha_structure.py": "公开 L2 不含题目级作答；题目级 PCA 未运行，其余结构分析已完成",
+    "a07_hidden_distress.py": "公开 L2 不含 PHQ/GAD 逐题输入；疲乏条目及双正常部分题项级分支未运行，其余九读数与结局分析已完成",
     "a10_robustness.py": "公开 L2 不含注意力字段；注意力敏感性未运行，分层稳健性已完成",
     "a12_convergent.py": "公开 L2 不含时长/注意力字段；可接受性未运行，Gold 收敛分析已完成",
     "a24_item_equivalence.py": "公开 L2 不含题目级输入；题目等价性未运行，仅完成症状分层描述",

@@ -5,7 +5,7 @@ a03_causal_chain.py,success,
 a04_predictive.py,success,
 a05_ibs.py,success,
 a06_clinical_utility.py,success,
-a07_hidden_distress.py,success,
+a07_hidden_distress.py,partial_public_l2,公开 L2 不含 PHQ/GAD 逐题输入；疲乏条目及双正常部分题项级分支未运行，其余九读数与结局分析已完成
 a09_carrier.py,success,
 a10_robustness.py,partial_public_l2,公开 L2 不含注意力字段；注意力敏感性未运行，分层稳健性已完成
 a11_cross_cohort.py,success,

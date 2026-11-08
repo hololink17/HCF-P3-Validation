@@ -1,8 +1,10 @@
 # HCF · P3 工具验证 — 九读数信效度与下游统计复现包
 
-本仓库伴随论文 **《Black-Box Reliability and Validity of a Proprietary Computational Assessment System in Two Cohorts》** 发布，用于复现公开范围内的信效度、效标关联与下游统计结果。
+本仓库伴随论文 **《Beyond Symptom Counts: A Theory-Driven, Computation-Based Assessment Framework Evaluated in Two Independent Cohorts》** 发布，用于复现公开范围内的信效度、效标关联与下游统计结果。论文阐述的结构编码、冲突图与聚合设计不构成公开后台实现；本仓库仍仅承担公开九读数 L2 的下游复现。
 
-> **公开边界**：仓库提供九个后台直出读数（四个 α、四个 carrier、一个 H）、外部变量、公开量表结果及下游统计。书籍已公开的 H_trend = [α1]² 仅作为 α1 的确定性下游变换复现，不是第十个后台读数，也不表示实测纵向变化。内部题目作答、内部中间量、H 的后台生成公式、映射规则、校准参数与专有计算组件均不公开；公开代码不会从原始作答或其他读数重构内部计分。
+> **公开边界**：仓库提供九个后台直出读数（四个 α、四个 carrier、一个 H）、外部变量、公开量表结果及下游统计。书籍已公开的 H_trend = [α1]² 仅作为 α1 的确定性下游变换复现，不是第十个后台读数，也不表示实测纵向变化。论文披露的理论聚合形式不等于后台实现；内部题目作答、内部中间量、实际映射规则、维度内部成员、校准参数与专有计算组件均不进入本仓库，公开代码不会从原始作答或其他读数重构内部计分。
+>
+> **论文结果与公开复现范围的对应**：论文以 `all_distinct` 作为理论主比较的结构多样性计数，以 `nonhealth_distinct` 作为临床方向敏感性计数，并报告严格同总分症状模式分析。这些结果需要受控编码或外部量表逐题输入；其输入、聚合计数和分析实现不进入公开 L2，故本仓库不声称复算这些受控聚合结果。论文与 SM3.11–SM3.12 报告其结果，仓库继续复现公开九读数上的下游统计，两者并不矛盾。
 
 ## 1. 版本标识
 
@@ -93,14 +95,17 @@ Rscript code/R/10_analysis_run_all.R
 
 ## 5. 关键结果入口
 
-| 内容 | 脚本 | 公开结果 |
+| 内容 | 脚本 / 公开状态 | 公开结果或论文位置 |
 |---|---|---|
 | E2 重测 ICC | `e2_icc_dual_20261031.py`（默认读取 `code/data/derived/p3_base_e2_retest.csv` 的164个匿名配对；直接分析最终读数） | `data_output/E2_results/E2_icc_dual_20261031.csv` |
 | E3a 配对与顺序效应 | `e03b_phase2.py` | `data_output/E3b_results/` |
 | E3b 注册 C1/C2/C3 | `e03b_phase2.py` / R `10_analysis_43_e3b_registered.R` | `C1_预注册标准化主结果.csv`、`C2_方向复现.csv`、`C3_选项级分布.csv`；C1 为第2批240对原中文队列504，abs(Cliff's δ)<.147 |
 | H_trend 输出级内部一致性 | R `10_analysis_25_replication_extension.R` / Python `a25_replication_extension.py` | `data_output/analysis_results/a25_replication_extension/T25_htrend_replication.csv` |
-| 收敛效度 | R `10_analysis_12_convergent_semantic.R` / Python `a12_convergent.py` | 聚合统计表 |
-| 筛查与增量效度 | 保留的 R/Python 下游统计模块 | 聚合统计表 |
+| 收敛效度与组内剖面 | R `10_analysis_12_convergent_semantic.R` / Python `a12_convergent.py`、`a41_gold_incremental_ipsative.py` | 公开聚合统计表；16 条单相关与联合检验分别复算 |
+| 筛查、疾病与生活方式关联 | `a04`、`a07`、`a09`、`a11`、`a15`、`a25`、`a36` 等公开模块 | 公开聚合统计表；模块的部分完成状态以运行清单为准 |
+| 语义相似度与 LLM 下游五表 | `a42_semantic_confound.py`、`llm_e1_deepseek_redo.py` | 编号语义聚合结果、E1 五表；不含个案文本或原始模型返回 |
+| H–计数与严格同总分症状模式 | **受控，不在公开 L2 复算范围**；需要受控编码或外部量表逐题输入 | 论文 Table 2–3、SM3.11–SM3.12 的受控聚合结果 |
+| PHQ-9 item 9、疲乏条目及题目级 EFA | **受控，不在公开 L2 复算范围** | 论文、SM2/SM3 的受控聚合结果；公开脚本或清单显式标记边界 |
 
 E3b 的 C1 使用 Brunner–Munzel 中秩推断，α3、α4 通过，α1、α2 未通过；C2 仅作 α3–IBS 与 α3–PHQ-9 的方向描述；C3 公开的是不含题目文本、选项文本或映射的100格聚合计数。第1批对第2批均值尺度分析明确标为事后分析，不属于注册 C1/C2。
 
